@@ -19,7 +19,6 @@ const Menu = () => {
     setIsProfileDropdownOpen(!isProfileDropdownOpen);
   };
 
-  // Helper to get initials from email
   const getInitials = (email) => {
     if (!email) return "U";
     return email[0].toUpperCase();

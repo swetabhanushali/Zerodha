@@ -21,8 +21,7 @@ const Signup = () => {
 
       alert(res.data.msg);
 
-      // ✅ Redirect to dashboard after login/signup
-      window.location.href = "http://localhost:3001"; // Your dashboard app URL
+      window.location.href = "http://localhost:3001"; 
     } catch (err) {
      window.location.href = "http://localhost:3001";
     }
