@@ -1,0 +1,8 @@
+# Ignore node_modules from all folders
+**/node_modules/
+
+# Ignore .env from all folders
+**/.env
+
+# Ignore .history from all folders
+**/.history/
