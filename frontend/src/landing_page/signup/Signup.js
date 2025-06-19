@@ -21,9 +21,9 @@ const Signup = () => {
 
       alert(res.data.msg);
 
-      window.location.href = "http://localhost:3001"; 
+      window.location.href = "https://zerodha-dashboard-qb62.onrender.com"; 
     } catch (err) {
-     window.location.href = "http://localhost:3001";
+     window.location.href = "https://zerodha-dashboard-qb62.onrender.com";
     }
   };
 
