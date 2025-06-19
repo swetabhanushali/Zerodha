@@ -16,6 +16,8 @@ code {
   margin-left: 40px;
 }
 
+
+
 #supportHero{
   background-color: rgb(56, 126, 209);
   color: white;
@@ -23,6 +25,7 @@ code {
 
 #supportHero a{
   color: white;
+  
 }
 
 #supportWrapper{
@@ -37,4 +40,9 @@ code {
   font-size: 20px;
   border-radius: 10px;
   border: none;
+}
+
+#supportList{
+margin-top: 5px;
+margin-bottom: 5px;
 }

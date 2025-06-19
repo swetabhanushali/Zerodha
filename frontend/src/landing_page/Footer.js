@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
 function Footer() {
-  return (
-    <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
-      <div className="container border-top mt-5">
+    return ( 
+        <footer className="border-top" style={{ backgroundColor: "rgb(250, 250, 250)" }}>
+      <div className="container mt-5">
         <div className="row mt-5">
           <div className="col">
             <img src="media/images/logo.svg" style={{ width: "50%" }} />
-            <p>
+            <p className='mt-3'>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="">About</a>
+            <a href="" >About</a>
             <br />
-            <a href="">Products</a>
+            <a href="" >Products</a>
             <br />
             <a href="">Pricing</a>
             <br />
@@ -101,7 +101,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  );
+     );
 }
 
 export default Footer;

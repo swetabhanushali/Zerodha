@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 function Team() {
-  return (
-    <div className="container">
+    return ( 
+        <div className="container">
       <div className="row p-3 mt-5 border-top">
         <h1 className="text-center ">People</h1>
       </div>
@@ -37,7 +37,7 @@ function Team() {
         </div>
       </div>
     </div>
-  );
+     );
 }
 
 export default Team;

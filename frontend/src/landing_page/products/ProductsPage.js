@@ -1,21 +1,20 @@
-import React from "react";
+import React from 'react';
+import Navbar from '../Navbar';
+import Hero from './Hero';
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
+import Universe from './Universe';
+import Footer from '../Footer';
 
-import Hero from "./Hero";
-import LeftSection from "./LeftSection";
-import RightSection from "./RightSection";
-import Universe from "./Universe";
-
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-
-function PricingPage() {
-  return (
-    <>
-      <Hero />
-      <LeftSection
+function ProductsPage() {
+    return ( 
+        <>
+            
+            <Hero/>
+            <LeftSection
         imageURL="media/images/kite.png"
         productName="Kite"
-        productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
+        productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
         tryDemo=""
         learnMore=""
         googlePlay=""
@@ -55,9 +54,10 @@ function PricingPage() {
         Want to know more about our technology stack? Check out the Zerodha.tech
         blog.
       </p>
-      <Universe />
-    </>
-  );
+            <Universe/>
+            
+        </>
+     );
 }
 
-export default PricingPage;
+export default ProductsPage;
