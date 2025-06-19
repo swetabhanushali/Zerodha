@@ -15,7 +15,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001"],
+  origin: ["https://zerodha-frontend-xmed.onrender.com", "https://zerodha-dashboard-qb62.onrender.com"],
   credentials: true
 }));
 
