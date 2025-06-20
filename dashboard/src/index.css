@@ -844,3 +844,257 @@ hr {
 
 
 
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .first, .second {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .first h3 {
+    font-size: 1.5rem;
+  }
+
+  .section span p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .username h6 {
+    font-size: 1.2rem;
+  }
+
+  .first h3 {
+    font-size: 1.3rem;
+  }
+
+  .second p {
+    font-size: 0.85rem;
+  }
+
+  .section {
+    margin-bottom: 15px;
+  }
+}
+/* Desktop styles remain as-is, not touched here */
+
+/* Responsive for tablets and smaller */
+@media (max-width: 1024px) {
+  .order-table {
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+
+  table {
+    min-width: 600px; /* allow horizontal scroll if too narrow */
+  }
+
+  th, td {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .row {
+    gap: 15px;
+  }
+
+  .col h5 {
+    font-size: 1.3rem;
+  }
+
+  .col p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    min-width: 500px;
+  }
+
+  th, td {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+  }
+
+  .col {
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    min-width: 400px;
+  }
+
+  th, td {
+    padding: 4px 6px;
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    min-width: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .col h5 {
+    font-size: 1.2rem;
+  }
+
+  .col p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Make table container scrollable on smaller screens */
+@media (max-width: 1024px) {
+  .order-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    margin-bottom: 1rem;
+  }
+
+  table {
+    width: 100%;
+    min-width: 700px; /* Prevent table squishing, horizontal scroll will show */
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px 12px;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* Smaller devices tweaks */
+@media (max-width: 768px) {
+  table {
+    min-width: 600px;
+  }
+
+  th, td {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    min-width: 450px;
+  }
+
+  th, td {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsive styles for tablets and smaller devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .funds {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .funds p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .data {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+  }
+
+  .data p {
+    margin: 4px 0;
+  }
+
+  hr {
+    display: none; /* Hide horizontal lines on small screens for cleaner look */
+  }
+
+  .commodity {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+/* For smaller mobiles (max-width: 480px) */
+@media (max-width: 480px) {
+  .funds p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+
+  .table {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.8rem;
+  }
+}
+
+

@@ -1,60 +1,54 @@
 import React from 'react';
 
 function Footer() {
-    return ( 
-        <footer className="border-top" style={{ backgroundColor: "rgb(250, 250, 250)" }}>
+  return (
+    <footer className="border-top" style={{ backgroundColor: "rgb(250, 250, 250)" }}>
       <div className="container mt-5">
-        <div className="row mt-5">
-          <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
-            <p className='mt-3'>
+        <div className="row mt-5 gy-4">
+          <div className="col-12 col-md-6 col-lg-3">
+            <img src="/media/images/logo.svg" alt="Company Logo" style={{ width: "120px" }} />
+            <p className="mt-3">
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
-          <div className="col">
-            <p>Company</p>
-            <a href="" >About</a>
-            <br />
-            <a href="" >Products</a>
-            <br />
-            <a href="">Pricing</a>
-            <br />
-            <a href="">Referral programme</a>
-            <br />
-            <a href="">Careers</a>
-            <br />
-            <a href="">Zerodha.tech</a>
-            <br />
-            <a href="">Press & media</a>
-            <br />
-            <a href="">Zerodha cares (CSR)</a>
-            <br />
+
+          <div className="col-6 col-md-6 col-lg-3">
+            <p className="fw-bold">Company</p>
+            <ul className="list-unstyled">
+              <li><a href="">About</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Referral programme</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Zerodha.tech</a></li>
+              <li><a href="">Press & media</a></li>
+              <li><a href="">Zerodha cares (CSR)</a></li>
+            </ul>
           </div>
-          <div className="col">
-            <p>Support</p>
-            <a href="">Contact</a>
-            <br />
-            <a href="">Support portal</a>
-            <br />
-            <a href="">Z-Connect blog</a>
-            <br />
-            <a href="">List of charges</a>
-            <br />
-            <a href="">Downloads & resources</a>
-            <br />
+
+          <div className="col-6 col-md-6 col-lg-3">
+            <p className="fw-bold">Support</p>
+            <ul className="list-unstyled">
+              <li><a href="">Contact</a></li>
+              <li><a href="">Support portal</a></li>
+              <li><a href="">Z-Connect blog</a></li>
+              <li><a href="">List of charges</a></li>
+              <li><a href="">Downloads & resources</a></li>
+            </ul>
           </div>
-          <div className="col">
-            <p>Account</p>
-            <a href="">Open an account</a>
-            <br />
-            <a href="">Fund transfer</a>
-            <br />
-            <a href="">60 day challenge</a>
-            <br />
+
+          <div className="col-6 col-md-6 col-lg-3">
+            <p className="fw-bold">Account</p>
+            <ul className="list-unstyled">
+              <li><a href="">Open an account</a></li>
+              <li><a href="">Fund transfer</a></li>
+              <li><a href="">60 day challenge</a></li>
+            </ul>
           </div>
         </div>
+
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
-          <p>
+         <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
@@ -101,7 +95,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-     );
+  );
 }
 
 export default Footer;
